@@ -3,7 +3,7 @@ spring:
     activate:
       on-profile: prod
 my:
-  custon:
+  custom:
     profileGreeting: Production profile
     initBean: false
 
