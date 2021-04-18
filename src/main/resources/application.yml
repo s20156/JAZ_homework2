@@ -1,0 +1,19 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+my:
+  custon:
+    profileGreeting: Production profile
+    initBean: false
+
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+my:
+  custom:
+    profileGreeting: Development profile
+    initBean: true
